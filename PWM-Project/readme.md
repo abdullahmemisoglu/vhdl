@@ -14,4 +14,4 @@ PeriodConstant = ClockFreq / PWM-freq = 2500
 
 2 adet buton (1 adet duty cycle arttırma, 1 adet duty cycle azaltma)
 5 adet LED (Her biri senkron çalışacak)\
-![Alt Text](https://drive.google.com/file/d/1KfCZwRiP0ZL9NCfy5i8NfV_JN0klCfiI/view?usp=sharing)
+
