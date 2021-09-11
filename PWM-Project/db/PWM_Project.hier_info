@@ -1,0 +1,98 @@
+|PWM_Project
+CLK => Debounce_Module:Inc.i_Clk
+CLK => LED_signal.CLK
+CLK => is_dec_falling.CLK
+CLK => is_inc_falling.CLK
+CLK => previous_debounced_dec_button.CLK
+CLK => previous_debounced_inc_button.CLK
+CLK => cnt[0].CLK
+CLK => cnt[1].CLK
+CLK => cnt[2].CLK
+CLK => cnt[3].CLK
+CLK => cnt[4].CLK
+CLK => cnt[5].CLK
+CLK => cnt[6].CLK
+CLK => cnt[7].CLK
+CLK => cnt[8].CLK
+CLK => cnt[9].CLK
+CLK => cnt[10].CLK
+CLK => cnt[11].CLK
+CLK => cnt[12].CLK
+CLK => cnt[13].CLK
+CLK => cnt[14].CLK
+CLK => cnt[15].CLK
+CLK => cnt[16].CLK
+CLK => cnt[17].CLK
+CLK => cnt[18].CLK
+CLK => cnt[19].CLK
+CLK => cnt[20].CLK
+CLK => cnt[21].CLK
+CLK => cnt[22].CLK
+CLK => cnt[23].CLK
+CLK => cnt[24].CLK
+CLK => cnt[25].CLK
+CLK => cnt[26].CLK
+CLK => cnt[27].CLK
+CLK => cnt[28].CLK
+CLK => cnt[29].CLK
+CLK => cnt[30].CLK
+CLK => cnt[31].CLK
+CLK => Debounce_Module:Dec.i_Clk
+CLK => State~6.DATAIN
+Inc_Button => Debounce_Module:Inc.i_Switch
+Dec_Button => Debounce_Module:Dec.i_Switch
+LEDs[0] <= LED_signal.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[1] <= LED_signal.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[2] <= LED_signal.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[3] <= LED_signal.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[4] <= LED_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_Project|Debounce_Module:Inc
+i_Clk => deb_button_signal.CLK
+i_Clk => clk_counter[0].CLK
+i_Clk => clk_counter[1].CLK
+i_Clk => clk_counter[2].CLK
+i_Clk => clk_counter[3].CLK
+i_Clk => clk_counter[4].CLK
+i_Clk => clk_counter[5].CLK
+i_Clk => clk_counter[6].CLK
+i_Clk => clk_counter[7].CLK
+i_Clk => clk_counter[8].CLK
+i_Clk => clk_counter[9].CLK
+i_Clk => clk_counter[10].CLK
+i_Clk => clk_counter[11].CLK
+i_Clk => clk_counter[12].CLK
+i_Clk => clk_counter[13].CLK
+i_Clk => clk_counter[14].CLK
+i_Clk => clk_counter[15].CLK
+i_Clk => r2.CLK
+i_Clk => r1.CLK
+i_Switch => r1.DATAIN
+o_Switch <= deb_button_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_Project|Debounce_Module:Dec
+i_Clk => deb_button_signal.CLK
+i_Clk => clk_counter[0].CLK
+i_Clk => clk_counter[1].CLK
+i_Clk => clk_counter[2].CLK
+i_Clk => clk_counter[3].CLK
+i_Clk => clk_counter[4].CLK
+i_Clk => clk_counter[5].CLK
+i_Clk => clk_counter[6].CLK
+i_Clk => clk_counter[7].CLK
+i_Clk => clk_counter[8].CLK
+i_Clk => clk_counter[9].CLK
+i_Clk => clk_counter[10].CLK
+i_Clk => clk_counter[11].CLK
+i_Clk => clk_counter[12].CLK
+i_Clk => clk_counter[13].CLK
+i_Clk => clk_counter[14].CLK
+i_Clk => clk_counter[15].CLK
+i_Clk => r2.CLK
+i_Clk => r1.CLK
+i_Switch => r1.DATAIN
+o_Switch <= deb_button_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+

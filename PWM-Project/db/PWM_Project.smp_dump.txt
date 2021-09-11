@@ -1,0 +1,8 @@
+
+State Machine - |PWM_Project|State
+Name State.DUTY100 State.DUTY75 State.DUTY50 State.DUTY25 State.DUTY00 
+State.DUTY00 0 0 0 0 0 
+State.DUTY25 0 0 0 1 1 
+State.DUTY50 0 0 1 0 1 
+State.DUTY75 0 1 0 0 1 
+State.DUTY100 1 0 0 0 1 
