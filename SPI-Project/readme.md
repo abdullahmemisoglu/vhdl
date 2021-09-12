@@ -1,8 +1,8 @@
-**Proje 2: SPI Protokolünün VHDL Dilinde İmplemente Edilmesi 
+**Proje 2: SPI Protokolünün VHDL Dilinde İmplemente Edilmesi**
 
 Bu proje kapsamında SPI (Serial Peripheral Interface) protokolü VHDL dilinde implemente edilecektir. Bu protokolün işleyip işlemediğini test etmek için osiloskop kullanılacaktır. FPGA’den gönderilen sinyali bir PMOD Connector portu üzerinden Osiloskop’a aktarmak amaçlanmaktadır.
 	
-**SPI (Serial Peripheral Interface) Protokolü:
+**SPI (Serial Peripheral Interface) Protokolü:**
 
 Bu protokolün en önemli özellikleri eş zamanlı çalışabilme (syncchronous), çift yönlü veri transferini destekleyebilme (full-duplex) ve ana-yardımcı birim arasında haberleşme sağlayabilme (master-slave based) özelliğidir. Veri aktarım işlemleri master (Ana kart) tarafından üretilen bir clock sinyali senkron gerçekleşmektedir.
 
