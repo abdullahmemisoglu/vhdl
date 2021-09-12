@@ -16,6 +16,7 @@ Böylece PeriodConstant = ClockFreq / PWM-freq = 2500
 5 adet LED (Her biri senkron çalışacak)
 
 [![Watch the video](https://www.youtube.com/channel/UCM2VpQ59A-h3u8ruFEbbZ9g)](https://www.youtube.com/watch?v=30YYEKkP_8A&ab_channel=AbdullahMemi%C5%9Fo%C4%9Flu)
+![alt text](file:///C:/Users/LENOVO/Desktop/Osiloskop.JPG)
 
 Altera MAX10 Development Kit
 ---------------------------------
