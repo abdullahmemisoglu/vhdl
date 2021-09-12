@@ -19,11 +19,11 @@ Böylece PeriodConstant = ClockFreq / PWM-freq = 2500
 
 Altera MAX10 Development Kit
 ---------------------------------
-USER_LED0 -> PIN_T20
-USER_LED1 -> PIN_U22
-USER_LED2 -> PIN_U21
-USER_LED3 -> PIN_AA22
-USER_LED4 -> PIN_AA21
-
-USER_PB0 -> PIN_L22
-USER_PB1 -> PIN_M21
+USER_LED0 -> PIN_T20\
+USER_LED1 -> PIN_U22\
+USER_LED2 -> PIN_U21\
+USER_LED3 -> PIN_AA22\
+USER_LED4 -> PIN_AA21\
+\
+USER_PB0 -> PIN_L22\
+USER_PB1 -> PIN_M21\
