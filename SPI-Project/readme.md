@@ -26,5 +26,22 @@ Yapılacak tasarımda aşağıdakilere dikkat edilmelidir.
 
 Tasarımdan beklenen bir çıktı örneği aşağıdaki gibi olmalıdır. 
 
+![p3](https://user-images.githubusercontent.com/57804784/132986138-86abcef5-b555-4aa4-94c0-fc3838338c83.png)
 
+
+**SPI Protokolü VHDL İmplementasyonu:**
+
+Modüle çalışma clock frekansı bilgisini vermek için bir adet clock için bir değişken(clk), protokolün veri aktarımı-bekleme aşamalarından hangisinde olacağını belirleyen bir değişken(en) ve aktarılacak veri, bu projede 1 byte olarak belirlenmiştir, için bir değişken(mosi_data) olmak üzere üç girdi bulunmaktadır. Çıktılar ise osiloskopta görülmesi beklenen Chip Select (cs), SPI Clock(sclk) ve aktarımı gerçekleşen veri(mosi) olmak üzere 3 tanedir. İlgili modülün girdi ve çıktılarını içeren diyagram aşağıdaki gibidir.
+
+![p4](https://user-images.githubusercontent.com/57804784/132986211-6128f06c-4f9f-4da0-8aa0-142d67a1650d.png)
+
+ **İmplementasyon Modülü Testi:**
+
+Bir üst modül oluşturularak belirli düzen ile sinyal gönderilip test aşaması gerçekleştirilir. Testin diyagramı aşağıdaki gibidir. 
+
+![p5](https://user-images.githubusercontent.com/57804784/132986313-6a39b4e4-a376-4b6c-a0b6-59546150ea19.png)
+
+**SİSTEM ÇIKTILARI:**
+![p7](https://user-images.githubusercontent.com/57804784/132986372-2acf83ad-4c33-44d8-923b-a819a2fa0189.jpg)
+![p6](https://user-images.githubusercontent.com/57804784/132986374-6dd5c9e7-c706-413a-83dd-a8dbc143c02b.png)
 
