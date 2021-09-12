@@ -1,0 +1,66 @@
+|SPI_Project
+clk => SPI_MODULE:SPI.clk_i
+clk => once.CLK
+clk => mosi_data[0].CLK
+clk => mosi_data[1].CLK
+clk => mosi_data[2].CLK
+clk => mosi_data[3].CLK
+clk => mosi_data[4].CLK
+clk => mosi_data[5].CLK
+clk => mosi_data[6].CLK
+clk => mosi_data[7].CLK
+clk => enable.CLK
+cs_o <= SPI_MODULE:SPI.cs_o
+sclk_o <= SPI_MODULE:SPI.sclk_o
+mosi_o <= SPI_MODULE:SPI.mosi_o
+
+
+|SPI_Project|SPI_MODULE:SPI
+clk_i => write_reg[0].CLK
+clk_i => write_reg[1].CLK
+clk_i => write_reg[2].CLK
+clk_i => write_reg[3].CLK
+clk_i => write_reg[4].CLK
+clk_i => write_reg[5].CLK
+clk_i => write_reg[6].CLK
+clk_i => write_reg[7].CLK
+clk_i => state.CLK
+clk_i => busy~reg0.CLK
+clk_i => sclk_o~reg0.CLK
+clk_i => cnt[0].CLK
+clk_i => cnt[1].CLK
+clk_i => cnt[2].CLK
+clk_i => cnt[3].CLK
+clk_i => mosi_o~reg0.CLK
+clk_i => cs_o~reg0.CLK
+clk_i => sclk_prev.CLK
+en_i => state.OUTPUTSELECT
+en_i => mosi_o.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => write_reg.OUTPUTSELECT
+en_i => mosi_o.OUTPUTSELECT
+en_i => cnt.OUTPUTSELECT
+en_i => cnt.OUTPUTSELECT
+en_i => cnt.OUTPUTSELECT
+en_i => cnt.OUTPUTSELECT
+en_i => busy.DATAB
+mosi_data_i[0] => write_reg.DATAB
+mosi_data_i[1] => write_reg.DATAB
+mosi_data_i[2] => write_reg.DATAB
+mosi_data_i[3] => write_reg.DATAB
+mosi_data_i[4] => write_reg.DATAB
+mosi_data_i[5] => write_reg.DATAB
+mosi_data_i[6] => write_reg.DATAB
+mosi_data_i[7] => mosi_o.DATAB
+mosi_data_i[7] => mosi_o.DATAB
+cs_o <= cs_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sclk_o <= sclk_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mosi_o <= mosi_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+busy <= busy~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
