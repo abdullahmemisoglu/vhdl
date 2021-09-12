@@ -16,3 +16,14 @@ Böylece PeriodConstant = ClockFreq / PWM-freq = 2500
 5 adet LED (Her biri senkron çalışacak)
 
 [![Watch the video](https://www.youtube.com/channel/UCM2VpQ59A-h3u8ruFEbbZ9g)](https://www.youtube.com/watch?v=30YYEKkP_8A&ab_channel=AbdullahMemi%C5%9Fo%C4%9Flu)
+
+Altera MAX10 Development Kit
+---------------------------------
+USER_LED0 -> PIN_T20
+USER_LED1 -> PIN_U22
+USER_LED2 -> PIN_U21
+USER_LED3 -> PIN_AA22
+USER_LED4 -> PIN_AA21
+
+USER_PB0 -> PIN_L22
+USER_PB1 -> PIN_M21
