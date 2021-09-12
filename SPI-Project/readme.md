@@ -14,7 +14,8 @@ SPI protokolünde iki önemli kavram clock polarity ve clock phase’dir. Bu iki
 
 ![p2](https://user-images.githubusercontent.com/57804784/132985994-8b69a2e2-df16-427c-b964-20f707dcbd51.PNG)
 
-Yapılacak tasarımda aşağıdakilere dikkat edilmelidir. 
+Yapılacak tasarımda aşağıdakilere dikkat edilmelidir.
+
 •CS biti ‘0’ değeri aldığında girdi olarak verilen sinyalin slave’e iletimi başlayacak ve iletim boyunca CS biti ‘0’ değeri alacak. İletim tamamlandığında CS biti ‘1’ değeri alır.  
 
 •Tasarımda SPI için clock frekansı 1 MHz, sistem clock frekansı ise 25MHz olarak belirtilmiştir. Buna göre 1 SPI clock periyodunda 25 sistem clock periyodu gözlemlenmelidir. 
