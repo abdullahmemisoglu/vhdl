@@ -15,10 +15,10 @@ SPI protokolünde iki önemli kavram clock polarity ve clock phase’dir. Bu iki
 ![p2](https://user-images.githubusercontent.com/57804784/132985994-8b69a2e2-df16-427c-b964-20f707dcbd51.PNG)
 
 Yapılacak tasarımda aşağıdakilere dikkat edilmelidir. 
-•CS biti ‘0’ değeri aldığında girdi olarak verilen sinyalin slave’e iletimi başlayacak ve iletim boyunca CS biti ‘0’ değeri alacak. İletim tamamlandığında CS biti ‘1’ değeri alır. 
-•Tasarımda SPI için clock frekansı 1 MHz, sistem clock frekansı ise 25MHz olarak belirtilmiştir. Buna göre 1 SPI clock periyodunda 25 sistem clock periyodu gözlemlenmelidir. 
-•1 byte veri aktarımı için 8 SPI clock süresi geçmelidir. Bu süre 1 frame aktarımı süresi demektir. 1 frame aktarımı 8 SPI clock süresi bu da 200 sistem clock süresi olmalıdır. CS biti ‘0’ değer aldıktan sonra bu süre kadar ‘0’ değeri almaya devam etmelidir. 
-•SPI clock sadece CS biti ‘0’ iken clock davranışı sergilemelidir. CS biti ‘1’ ise clock değeri de ‘0’ olmalıdır. 
+•CS biti ‘0’ değeri aldığında girdi olarak verilen sinyalin slave’e iletimi başlayacak ve iletim boyunca CS biti ‘0’ değeri alacak. İletim tamamlandığında CS biti ‘1’ değeri alır.\ 
+•Tasarımda SPI için clock frekansı 1 MHz, sistem clock frekansı ise 25MHz olarak belirtilmiştir. Buna göre 1 SPI clock periyodunda 25 sistem clock periyodu gözlemlenmelidir.\
+•1 byte veri aktarımı için 8 SPI clock süresi geçmelidir. Bu süre 1 frame aktarımı süresi demektir. 1 frame aktarımı 8 SPI clock süresi bu da 200 sistem clock süresi olmalıdır. CS biti ‘0’ değer aldıktan sonra bu süre kadar ‘0’ değeri almaya devam etmelidir.\ 
+•SPI clock sadece CS biti ‘0’ iken clock davranışı sergilemelidir. CS biti ‘1’ ise clock değeri de ‘0’ olmalıdır.\ 
 
 Tasarımdan beklenen bir çıktı örneği aşağıdaki gibi olmalıdır. 
 
