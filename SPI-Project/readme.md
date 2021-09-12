@@ -42,9 +42,9 @@ Bir üst modül oluşturularak belirli düzen ile sinyal gönderilip test aşama
 ![p5](https://user-images.githubusercontent.com/57804784/132986313-6a39b4e4-a376-4b6c-a0b6-59546150ea19.png)
 
 **SİSTEM ÇIKTILARI:**\
-**Bu projede SPI_MODULE.vhd ve SPI_Project.vhd kodları kullanarak ilgili sonuçlar elde edilmiştir. 
+**Bu projede SPI_MODULE.vhd ve SPI_Project.vhd kodları kullanarak ilgili sonuçlar elde edilmiştir.** 
 ![p7](https://user-images.githubusercontent.com/57804784/132986372-2acf83ad-4c33-44d8-923b-a819a2fa0189.jpg)
 ![p6](https://user-images.githubusercontent.com/57804784/132986374-6dd5c9e7-c706-413a-83dd-a8dbc143c02b.png)
 \
-**Bu projede SPI_MODULE.vhd ve TB_SPI_Project.vhd kodları kullanarak ilgili sonuçlar elde edilmiştir. 
+**Bu projede SPI_MODULE.vhd ve TB_SPI_Project.vhd kodları kullanarak ilgili sonuçlar elde edilmiştir.** 
 ![SPI-TB](https://user-images.githubusercontent.com/57804784/132987395-6ee3bafb-98e7-4cf2-861a-c552e47500b2.PNG)
