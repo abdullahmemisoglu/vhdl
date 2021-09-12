@@ -10,5 +10,7 @@ SPI implementasyonunda master ve slave için girdi ve çıktılar belirlenmelidi
 
 ![p1](https://user-images.githubusercontent.com/57804784/132985955-175a7a65-130a-45fe-b985-0cc4179a1aae.png)
 
+SPI protokolünde iki önemli kavram clock polarity ve clock phase’dir. Bu iki kavram çift yönlü aktarımın sistemini belirlemektedir. Kavramlar ve işlevleri tablosu aşağıdaki gibidir. 
+
 
 
