@@ -10,9 +10,9 @@ clk => mosi_data[5].CLK
 clk => mosi_data[6].CLK
 clk => mosi_data[7].CLK
 clk => enable.CLK
-cs_o <= SPI_MODULE:SPI.cs_o
-sclk_o <= SPI_MODULE:SPI.sclk_o
-mosi_o <= SPI_MODULE:SPI.mosi_o
+cs_o << SPI_MODULE:SPI.cs_o
+sclk_o << SPI_MODULE:SPI.sclk_o
+mosi_o << SPI_MODULE:SPI.mosi_o
 
 
 |SPI_Project|SPI_MODULE:SPI

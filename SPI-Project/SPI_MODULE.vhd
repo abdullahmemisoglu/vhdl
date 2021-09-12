@@ -111,7 +111,25 @@ begin
 				end case;
 		end if;
 	end process;
+	
+	process (clk_i)
+	begin
+		if (rising_edge(clk_i)) then 
+			if(sclk_en = '1') then
+				if(edge_cnt = edge_counter_limit - 1) then
+					sclk <= not sclk;
+					edge_cnt <= 0;
+				else
+					edge_cnt <= edge_cnt + 1;
+				end if;
+			else
+				edge_cnt <= 0;
+				sclk <= '0';
+			end if;
+		end if;
+	end process;
 end behaviour;
+
 			
 			
 			

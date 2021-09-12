@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Dev-Cpp/Quartus
+Espi_module
+Z0 w1631449047
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project
+Z4 8C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/SPI_MODULE.vhd
+Z5 FC:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/SPI_MODULE.vhd
+l0
+L4
+VSgfdkY6eeUFO:b9baRJ;^0
+!s100 I[4;<4^:9;?UIHEgWTSnX3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1631449056
+!i10b 1
+Z8 !s108 1631449056.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/SPI_MODULE.vhd|
+Z10 !s107 C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/SPI_MODULE.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+Z13 DEx4 work 10 spi_module 0 22 SgfdkY6eeUFO:b9baRJ;^0
+l37
+L21
+VoUzkIQP37J50bIUeAR5Ag3
+!s100 jZ30F6GHzRj:OlFbknFKb1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_spi_project
+Z14 w1631448591
+R1
+R2
+R3
+Z15 8C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/TB_SPI_PROJECT.vhd
+Z16 FC:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/TB_SPI_PROJECT.vhd
+l0
+L4
+Vh;lW_aQh^fZc7z[TJkG?N2
+!s100 KIdEkV4KOFDKcfa_n:Q]o2
+R6
+32
+Z17 !s110 1631449055
+!i10b 1
+Z18 !s108 1631449055.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/TB_SPI_PROJECT.vhd|
+Z20 !s107 C:/Users/LENOVO/Documents/GitHub/Abdullah/VHDL/SPI-Project/TB_SPI_PROJECT.vhd|
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+DEx4 work 14 tb_spi_project 0 22 h;lW_aQh^fZc7z[TJkG?N2
+l43
+L11
+VF3TfY3QzB?GdN8FW]g0PC2
+!s100 XD1chI2`N4UimozOM42Za2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
