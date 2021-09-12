@@ -3,8 +3,8 @@
 
 Projenin amacı bir LED’i bir girdiye bağlı olarak değişen belirli doluluk boşluk oranlarına (duty cycle) göre sürmektir.
 
-Proje Spesifikasyonları gereği sistem clock frekansı 25MHz, PWM frekansı 10 kHz seçilmiştir. Böylece
-PeriodConstant = ClockFreq / PWM-freq = 2500
+Proje Spesifikasyonları gereği sistem clock frekansı 25MHz, PWM frekansı 10 kHz seçilmiştir.\
+Böylece PeriodConstant = ClockFreq / PWM-freq = 2500
 
 %0     => 2500 * 0/100 = 0\
 %25   => 2500 * 25/100 = 625\
